@@ -11,8 +11,9 @@ p.first {
 }
 
 p.second {
-    color: white;
+    color: grey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 25px 50px 75px 100px;
 }
 
 p.third {
