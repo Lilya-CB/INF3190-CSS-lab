@@ -16,3 +16,12 @@ p.second {
 p.third {
     color: red;
 }
+
+#name {
+    font-weight: bold;
+}
+
+#name:hover {
+    color: blueviolet;
+    cursor: grab;
+}
