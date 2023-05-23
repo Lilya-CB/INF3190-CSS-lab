@@ -3,6 +3,9 @@
 }
 
 h1 {
+    /* Un tire h1 est normalement 2em (voir avec l'inspecteur d'élément),*/
+    /* pour le réduire de 25%, on doit alors l'écrire ainsi: */
+    font-size: 1.75em;
     color: red;
     text-decoration:underline;
     text-decoration-color: red;
@@ -17,6 +20,7 @@ p.first {
 p.second {
     color: grey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* Marge : top right bottom left */
     margin: 25px 50px 75px 100px;
 }
 
@@ -42,18 +46,17 @@ p.third {
 }
 
 input {
-    display: inline-block;
     font-size: large;
     text-align: left;
-    float: left;
     clear: left;
+    float: left;
+    display: block;
 }
 
 label{
-    display: inline-block;
     font-size: large;
     text-align: left;
-    float: left;
     clear: left;
-
+    float: left;
+    display: block;
 }
